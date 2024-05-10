@@ -5,7 +5,7 @@ OpenKM Community Edition
 ### Affected Version
 On or Before 6.3.12
 ### Vulnerable URL
-/admin/DatabaseQuery
+/OpenKM/admin/DatabaseQuery
 ### Description
 A Cross-Site Request Forgery (CSRF) vulnerability was discovered in OpenKM Community Edition on or before version 6.3.12. The vulnerability exists in the /admin/DatabaseQuery endpoint, which allows an attacker to manipulate a victim with administrative privileges to execute arbitrary SQL commands.
 ### Attack Vector
